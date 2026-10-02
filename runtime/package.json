@@ -1,0 +1,12 @@
+{
+  "name": "@mutayibnissar/agency-runtime",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Model-agnostic runtime for discovering, routing, governing and evaluating Agency Agents.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "smoke": "node ./src/cli.mjs list"
+  }
+}
